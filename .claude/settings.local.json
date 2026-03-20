@@ -36,7 +36,11 @@
       "Bash(chmod*)",
       "Bash(wc*)",
       "WebSearch",
-      "WebFetch"
+      "WebFetch",
+      "Read(//usr/local/bin/**)",
+      "Read(//Users/daniel/.nvm/versions/**)",
+      "Bash(brew list:*)",
+      "Bash(brew --version)"
     ]
   }
 }
