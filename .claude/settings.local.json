@@ -40,7 +40,8 @@
       "Read(//usr/local/bin/**)",
       "Read(//Users/daniel/.nvm/versions/**)",
       "Bash(brew list:*)",
-      "Bash(brew --version)"
+      "Bash(brew --version)",
+      "Bash(gh auth:*)"
     ]
   }
 }
