@@ -41,7 +41,15 @@
       "Read(//Users/daniel/.nvm/versions/**)",
       "Bash(brew list:*)",
       "Bash(brew --version)",
-      "Bash(gh auth:*)"
+      "Bash(gh auth:*)",
+      "Bash(gh pr:*)",
+      "Bash(npm --version)",
+      "Bash(source ~/.zshrc)",
+      "Bash(source ~/.bash_profile)",
+      "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); print\\(''''Apuestas:'''', len\\(d[''''apuestas'''']\\)\\); print\\(''''Balance:'''', d[''''stats''''][''''balanceActual'''']\\); print\\(''''Efectividad:'''', d[''''stats''''][''''efectividad'''']\\)\")",
+      "Bash(cp \"/Volumes/Sandisk 1TB Daniel/El villano del momio/icono no bg.png\" /Users/daniel/claude-webkit/.claude/worktrees/thirsty-borg/site/public/images/icono.png)",
+      "Bash(cp \"/Volumes/Sandisk 1TB Daniel/El villano del momio/icono-no-bg.ico\" /Users/daniel/claude-webkit/.claude/worktrees/thirsty-borg/site/public/favicon.ico)",
+      "Bash(vercel deploy:*)"
     ]
   }
 }
